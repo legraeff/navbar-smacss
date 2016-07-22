@@ -1,0 +1,43 @@
+/* Variables */
+
+$nav-color: #5752b8;
+$font-color: #fff;
+$main-font: arial, sans-serif;
+$nav-button-color: rgba(172, 169, 230, 1) 0%,
+rgba(135, 134, 176, 1) 100%;
+$nav-button-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .5);
+
+/* Themes */
+
+body {
+  font-family: arial;
+}
+
+#nav {
+  background: $nav-color;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: $font-color;
+}
+
+.nav-button {
+  font-weight: bold;
+  color: $font-color;
+  background: -moz-linear-gradient(top, $nav-button-color);
+  background: -webkit-linear-gradient(top, $nav-button-color);
+  background: linear-gradient(to bottom, $nav-button-color);
+}
+
+.body-button {
+  font-weight: bold;
+  color: $font-color;
+  background: $nav-color;
+}
+
+.shadow {
+  -webkit-box-shadow: $nav-button-shadow;
+  -moz-box-shadow: $nav-button-shadow;
+  box-shadow: $nav-button-shadow;
+}

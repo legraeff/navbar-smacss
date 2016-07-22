@@ -1,0 +1,19 @@
+/* Module */
+
+.nav-link {
+  text-decoration: none;
+  @media (max-width: 475px) {
+   font-size: 80%;
+  }
+}
+
+.nav-logo {
+  font-size: 200%;
+}
+
+.default-button {
+  font-size: 100%;
+  border: none;
+  border-radius: 5%;
+  
+}
